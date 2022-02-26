@@ -1,0 +1,58 @@
+.mh_toogle {
+  display: none;
+}
+
+.mh_toogle + .mh_toggle_btn {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: 0;
+  display: block;
+  width: 3em;
+  height: 1.5em;
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border-radius: 1.5em;
+  padding: 2px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  font-size: 1em;
+  background: lightgray;
+}
+
+.mh_toogle + .mh_toggle_btn:after {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  height: 100%;
+  border-radius: 50%;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  color: gray;
+  background: white;
+}
+
+.mh_toogle + .mh_toggle_btn:after {
+  left: 0;
+  content: "brightness_7";
+}
+
+.mh_toogle:checked + .mh_toggle_btn {
+  background: gray;
+}
+
+.mh_toogle:checked + .mh_toggle_btn:after {
+  left: 50%;
+  content: "brightness_4";
+}
