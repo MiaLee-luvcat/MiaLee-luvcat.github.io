@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2022-02-22 02:04:00
-last_modified_at: 2022-02-28 03:04:30
+last_modified_at: 2022-02-28 00:41:30
 ---
 
 ## jekyll 테마를 설치하다가 마주한 webrick 오류
