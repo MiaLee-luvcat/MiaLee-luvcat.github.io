@@ -64,14 +64,14 @@
                 {% endif %}
                 {% endfor %}
             </ul>
-            <span class="nav__sub-title">Etc</span>
             <ul>
                 {% for category in site.categories %}
-                {% if category[0] == "Trouble Shooting" %}
-                <li><a href="/categories/troubleshooting" class="">Trouble Shooting ({{category[1].size}})</a></li>
+                {% if category[0] == "error.log" %}
+                <li><a href="/categories/errorlog" class="">error.log ({{category[1].size}})</a></li>
                 {% endif %}
                 {% endfor %}
             </ul>
+            <span class="nav__sub-title">Etc</span>
             <ul>
                 {% for category in site.categories %}
                 {% if category[0] == "Interview" %}

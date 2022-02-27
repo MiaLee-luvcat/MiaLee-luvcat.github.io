@@ -3,7 +3,7 @@ published: true
 title:  "[error.log] jekyll serve - webrick file 오류 "
 
 categories:
-  - Trouble Shooting
+  - error.log
 tags:
   - [Blog, jekyll, Github, webrick, error.log]
 
