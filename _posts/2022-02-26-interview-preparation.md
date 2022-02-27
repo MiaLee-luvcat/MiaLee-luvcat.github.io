@@ -1,22 +1,22 @@
 ---
 published: true
-title:  "[기술 면접] 임시 포스팅"
+title:  "[기술 면접] CSR과 SSR의 차이"
 
 categories:
-  - Github Blog
+  - Interview
 tags:
-  - [Blog, jekyll, Github, Git]
+  - [Interview, SPA]
 
 toc: true
 toc_sticky: true
  
 date: 2022-02-26 11:00:30
-last_modified_at: 2022-02-26 11:00:30
+last_modified_at: 2022-02-27 10:36:00
 ---
 
 # 면접 질문과 답을 정리하는 글을 써보고자 하는데
 
-## 노션에서 여기로 어떻게 잘 옮길지 걱정이다..
+## 태그가 잘 정리되는지부터 확인해보자.
 
 
 **Java**
