@@ -144,10 +144,10 @@ footer:
       # url:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:dogakdev@gmail.com"
+      url: "mailto:sylee010101@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/devyuseon"
+      url: "https://github.com/siri-syl"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
