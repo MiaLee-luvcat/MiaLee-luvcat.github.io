@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2022-02-22 02:04:00
-last_modified_at: 2022-02-28 00:41:30
+last_modified_at: 2022-02-28 15:12:00
 ---
 
 ## jekyll webrick 오류
@@ -66,6 +66,6 @@ Configuration file: /Users/l_siri/siri-syl.github.io/_config.yml
 ## 해결 방법
 
 터미널에 `bundle add webrick`을 쳐서 webrick를 추가하면 된다!  
-이후 다시 `bundle exec jekyll serve`를 치면 무사히 로컬에서 진행됨을 알 수 있다.
+이후 다시 `bundle exec jekyll serve`를 치면 무사히 로컬에서 진행됨을 확인할 수 있다.
 
 <br>  
