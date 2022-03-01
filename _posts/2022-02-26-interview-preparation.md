@@ -14,114 +14,60 @@ date: 2022-02-26 11:00:30
 last_modified_at: 2022-03-01 15:13:00
 ---
 
-## 기술 영역: SPA
-SPA는 Single Page Application의 약자이다. 이에 대해서는 따로 포스팅을 할 예정이다.  
+# 주의 : 아직 작성 중인 포스팅!
+
+## 기술 영역: SPA  
+SPA는 Single Page Application의 약자이다.  
+이에 대해서는 따로 포스팅을 할 예정이다.  
 _이후 링크를 붙이도록 하자_  
 이 SPA 영역에서 다룰 수 있는 질문, **CSR과 SSR의 차이**는 무엇일지 생각해보고 정리하기로 했다.  
+
+## 관련 영역: SEO  
+SEO는 Search Engine Optimization의 약자로 검색 엔진 최적화라고 불리운다.  
+이에 대해서는 따로 포스팅을 할 예정이다.  
+_이후 링크를 붙이도록 하자_
 
 
 # CSR과 SSR의 개념적 차이와 동작 방식을 구분하여 설명해주세요.
 
-## CSR이란?
-CSR은 Client Side Rendering(클라이언트 사이드 렌더링)의 약자이다.  
+## CSR
+### CSR의 개념
+CSR은 Client Side Rendering의 약자이다.  
 말 그대로 해석하면 클라이언트(브라우저) 측에서 렌더링을 한다는 의미인데, 동작 과정은 이러하다.  
 <br>
-HTML다운로드 >> JS 다운로드 >> JS 실행 >> API 서버로부터 DATA 받기 >> Content 확인 가능  
+**HTML 다운로드 >> JS 다운로드 >> JS 실행 >> API 서버로부터 DATA 받기 >> Content 확인 가능**  
 
-즉, 최초 로딩 시 브라우저가 서버에 HTML을 비롯한 CSS, Javascript 등 각종 리소스들을 받아오는 방식이다.
-
-
-**Java**
-```java
-/**
- * @author John Smith <john.smith@example.com>
-*/
-package l2f.gameserver.model;
-
-public abstract strictfp class L2Char extends L2Object {
-  public static final Short ERROR = 0x0001;
-
-  public void moveTo(int x, int y, int z) {
-    _ai = null;
-    log("Should not be called");
-    if (1 > 5) { // wtf!?
-      return;
-    }
-  }
-}
-```
-
-**Kotlin**
-```kotlin
-import kotlinx.serialization.Serializable
-import kotlin.random.Random
-
-interface Building
-
-@Serializable
-class House(
-    private val rooms: Int? = 3,
-    val name: String = "Palace"
-) : Building {
-    var residents: Int = 4
-        get() {
-            println("Current residents: $field")
-            return field
-        }
-
-    fun burn(evacuation: (people: Int) -> Boolean) {
-        rooms ?: return
-        if (evacuation((0..residents).random()))
-            residents = 0
-    }
-}
-
-fun main() {
-    val house = House(name = "Skyscraper 1")
-    house.burn {
-        Random.nextBoolean()
-    }
-}
-```
-
-**Python**
-```python
-@requires_authorization(roles=["ADMIN"])
-def somefunc(param1='', param2=0):
-    r'''A docstring'''
-    if param1 > param2: # interesting
-        print 'Gre\'ater'
-    return (param2 - param1 + 1 + 0b10l) or None
-
-class SomeClass:
-    pass
-
->>> message = '''interpreter
-... prompt'''
-```
-
-**JavaScript**
-```js
-function $initHighlight(block, cls) {
-  try {
-    if (cls.search(/\bno\-highlight\b/) != -1)
-      return process(block, true, 0x0F) +
-             ` class="${cls}"`;
-  } catch (e) {
-    /* handle exception */
-  }
-  for (var i = 0 / 2; i < classes.length; i++) {
-    if (checkCondition(classes[i]) === undefined)
-      console.log('undefined');
-  }
-
-  return (
-    <div>
-      <web-component>{block}</web-component>
-    </div>
-  )
-}
-
-export  $initHighlight;
-```
+즉, 최초 로딩 시 브라우저가 서버에 HTML을 비롯한 CSS, Javascript 등 각종 리소스들을 받아오는 방식이다.  
+이러한 구조로 인해 초기 로딩 속도가 느린 것이 단점이지만,  
+빠른 페이지 전환 속도를 제공하며 서버 요청 수도 적다 보니 서버에 부담이 적다.
 <br>
+
+### CSR의 예시
+* React / Vue / Angular 사용  
+* Agoda 사이트  
+* Google 검색
+<br>
+
+### CSR의 장점
+* 사용자가 다른 경로로 페이지를 요청할 때 전체 새로 불러들이지 않고(**새로고침**하지 않음!) 필요한 부분만 변경하기 때문에 빠른 속도로 렌더링이 가능하다. = 동적으로 라우팅 관리, 빠른 인터랙션  
+  * 이로 인해 상대적으로 느린 모바일 네트워크에서도 빠른 렌더링 제공한다.  
+* 서버 요청 횟수가 적어 서버 부담이 적다.  
+* **Lazy loading**을 제공한다.
+  * Lazy loading은 우리말로 '지연된 로딩'이란 말로 쓰인다. 필요 시점까지 객체의 초기화를 연기시키기 위해 컴퓨터 프로그래밍에 흔히 사용되는 디자인 패턴의 하나로, 예시를 들자면 스크롤을 해야 추가로 로딩되는 *구글 이미지 검색*이 있다.
+* 사이트에 풍부한 상호 작용이 있는 경우, 빠른 라우팅으로 사용자에게 강력한 경험을 제공한다.  
+<br>
+
+### CSR의 단점
+* 화면에 보이는 html의 컨텐츠가 비어 있기 때문에 SEO가 안 좋다.
+  * 크롤링을 할 수 없다.
+
+## SSR
+
+### SSR의 개념
+SSR은 Server Side Rendering의 약자이다.
+CSR과 달리 서버에서 렌더링한다는 의미이다.
+<br>
+
+### SSR의 장점
+* SEO가 우선시일 경우 사용할 수 있다.  
+* 웹페이지 첫 화면 렌더링이 빨라야 할 경우 사용하기에 적당하다.  
