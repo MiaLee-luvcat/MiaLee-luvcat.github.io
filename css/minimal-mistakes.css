@@ -775,7 +775,7 @@ body {
   margin: 0;
   padding: 0;
   color: #3d4144;
-  font-family: -apple-system, BlinkMacSystemFont, "NanumGothic", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Nanum Gothic Coding", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   line-height: 1.5;
 }
 
@@ -792,7 +792,7 @@ h5,
 h6 {
   margin: 2em 0 0.5em;
   line-height: 1.2;
-  font-family: -apple-system, BlinkMacSystemFont, "NanumGothic", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Nanum Gothic Coding", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-weight: bold;
 }
 
@@ -1190,7 +1190,7 @@ select,
 textarea {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: -apple-system, BlinkMacSystemFont, "NanumGothic", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Nanum Gothic Coding", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 }
 
 label {
@@ -1502,7 +1502,7 @@ table {
   margin-left: auto;
   margin-bottom: 1em;
   width: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, "NanumGothic", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Nanum Gothic Coding", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 0.75em;
   border-collapse: collapse;
   overflow-x: auto;
@@ -1567,7 +1567,7 @@ th {
   display: inline-block;
   margin-bottom: 0.25em;
   padding: 0.5em 1em;
-  font-family: -apple-system, BlinkMacSystemFont, "NanumGothic", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Nanum Gothic Coding", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 0.75em;
   font-weight: bold;
   text-align: center;
@@ -1835,7 +1835,7 @@ th {
   /* override*/
   padding: 1em;
   color: #3d4144;
-  font-family: -apple-system, BlinkMacSystemFont, "NanumGothic", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Nanum Gothic Coding", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 1em !important;
   text-indent: initial;
   /* override*/
@@ -1896,7 +1896,7 @@ th {
   /* override*/
   padding: 1em;
   color: #3d4144;
-  font-family: -apple-system, BlinkMacSystemFont, "NanumGothic", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Nanum Gothic Coding", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 1em !important;
   text-indent: initial;
   /* override*/
@@ -1957,7 +1957,7 @@ th {
   /* override*/
   padding: 1em;
   color: #3d4144;
-  font-family: -apple-system, BlinkMacSystemFont, "NanumGothic", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Nanum Gothic Coding", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 1em !important;
   text-indent: initial;
   /* override*/
@@ -2018,7 +2018,7 @@ th {
   /* override*/
   padding: 1em;
   color: #3d4144;
-  font-family: -apple-system, BlinkMacSystemFont, "NanumGothic", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Nanum Gothic Coding", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 1em !important;
   text-indent: initial;
   /* override*/
@@ -2079,7 +2079,7 @@ th {
   /* override*/
   padding: 1em;
   color: #3d4144;
-  font-family: -apple-system, BlinkMacSystemFont, "NanumGothic", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Nanum Gothic Coding", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 1em !important;
   text-indent: initial;
   /* override*/
@@ -2140,7 +2140,7 @@ th {
   /* override*/
   padding: 1em;
   color: #3d4144;
-  font-family: -apple-system, BlinkMacSystemFont, "NanumGothic", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Nanum Gothic Coding", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 1em !important;
   text-indent: initial;
   /* override*/
@@ -2220,7 +2220,7 @@ th {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  font-family: -apple-system, BlinkMacSystemFont, "NanumGothic", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Nanum Gothic Coding", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 }
 
 .masthead__inner-wrap::after {
@@ -2309,7 +2309,7 @@ th {
   max-width: 100%;
   padding-left: 1em;
   padding-right: 1em;
-  font-family: -apple-system, BlinkMacSystemFont, "NanumGothic", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Nanum Gothic Coding", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   -webkit-animation: intro 0.3s both;
   animation: intro 0.3s both;
   -webkit-animation-delay: 0.3s;
@@ -2377,7 +2377,7 @@ th {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  font-family: -apple-system, BlinkMacSystemFont, "NanumGothic", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Nanum Gothic Coding", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 }
 
 .pagination li {
@@ -2390,7 +2390,7 @@ th {
   display: block;
   margin-bottom: 0.25em;
   padding: 0.5em 1em;
-  font-family: -apple-system, BlinkMacSystemFont, "NanumGothic", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Nanum Gothic Coding", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 14px;
   font-weight: bold;
   line-height: 1.5;
@@ -2436,7 +2436,7 @@ th {
   padding: 1em 2em;
   float: left;
   width: 50%;
-  font-family: -apple-system, BlinkMacSystemFont, "NanumGothic", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Nanum Gothic Coding", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 1em;
   font-weight: bold;
   text-align: center;
@@ -2781,7 +2781,7 @@ th {
 .nav__title {
   margin: 0;
   padding: 0.5rem 0.75rem;
-  font-family: -apple-system, BlinkMacSystemFont, "NanumGothic", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Nanum Gothic Coding", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 0.9em;
   font-weight: bold;
 }
@@ -2790,7 +2790,7 @@ th {
   display: block;
   margin: 0.5rem 0;
   padding: 0.25rem 0;
-  font-family: -apple-system, BlinkMacSystemFont, "NanumGothic", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Nanum Gothic Coding", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 0.75em;
   font-weight: bold;
   text-transform: uppercase;
@@ -2801,7 +2801,7 @@ th {
      Table of contents navigation
      ========================================================================== */
 .toc {
-  font-family: -apple-system, BlinkMacSystemFont, "NanumGothic", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Nanum Gothic Coding", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   border-left: 1px solid #f2f3f3;
   text-decoration: none;
   margin-bottom: 0;
@@ -2928,7 +2928,7 @@ th {
 }
 
 .page__footer-copyright {
-  font-family: -apple-system, BlinkMacSystemFont, "NanumGothic", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Nanum Gothic Coding", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 0.6875em;
 }
 
@@ -2942,7 +2942,7 @@ th {
   display: inline-block;
   padding-top: 5px;
   padding-bottom: 5px;
-  font-family: -apple-system, BlinkMacSystemFont, "NanumGothic", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Nanum Gothic Coding", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 0.75em;
   text-transform: uppercase;
 }
@@ -3566,7 +3566,7 @@ body:hover .visually-hidden button {
   position: fixed;
   z-index: 20;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "NanumGothic", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Nanum Gothic Coding", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   white-space: nowrap;
 }
 
@@ -4073,7 +4073,7 @@ a.reversefootnote:hover {
    SINGLE PAGE/POST
    ========================================================================== */
 * {
-  font-family: -apple-system, BlinkMacSystemFont, "NanumGothic", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Nanum Gothic Coding", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 }
 
 #main {
@@ -4174,7 +4174,7 @@ div.donation-btn {
 }
 
 .page__lead {
-  font-family: -apple-system, BlinkMacSystemFont, "NanumGothic", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Nanum Gothic Coding", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 1.25em;
 }
 
@@ -4228,13 +4228,13 @@ div.donation-btn {
 
 .page__content dt {
   margin-top: 1em;
-  font-family: -apple-system, BlinkMacSystemFont, "NanumGothic", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Nanum Gothic Coding", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-weight: bold;
 }
 
 .page__content dd {
   margin-left: 1em;
-  font-family: -apple-system, BlinkMacSystemFont, "NanumGothic", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Nanum Gothic Coding", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 0.75em;
 }
 
@@ -4391,7 +4391,7 @@ div.donation-btn {
    ========================================================================== */
 .page__meta, .comment__date {
   color: #646769;
-  font-family: -apple-system, BlinkMacSystemFont, "NanumGothic", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Nanum Gothic Coding", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 0.75em;
 }
 
@@ -4744,7 +4744,7 @@ div.donation-btn {
 
 .archive__item-title {
   margin-bottom: 0.25em;
-  font-family: -apple-system, BlinkMacSystemFont, "NanumGothic", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Nanum Gothic Coding", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -5208,12 +5208,12 @@ div.donation-btn {
 .sidebar h5,
 .sidebar h6 {
   margin-bottom: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "NanumGothic", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Nanum Gothic Coding", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 }
 
 .sidebar p,
 .sidebar li {
-  font-family: -apple-system, BlinkMacSystemFont, "NanumGothic", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Nanum Gothic Coding", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 0.75em;
   line-height: 1.5;
 }
@@ -5344,7 +5344,7 @@ div.donation-btn {
 }
 
 .sidebar .author__name {
-  font-family: -apple-system, BlinkMacSystemFont, "NanumGothic", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Nanum Gothic Coding", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 1em;
 }
 
@@ -5363,7 +5363,7 @@ div.donation-btn {
   position: relative;
   display: table-cell;
   vertical-align: middle;
-  font-family: -apple-system, BlinkMacSystemFont, "NanumGothic", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Nanum Gothic Coding", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   z-index: 20;
   cursor: pointer;
 }
