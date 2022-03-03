@@ -116,36 +116,9 @@ Output: [
   ]
 ```
 
-### 순열 코드
+### 이용해야 하는 기술 코드
 ```js
-const permutation = function (arr, selectNumber) {
-    // arr = n개의 요소가 들은 배열
-    // selectNumber = 골라야 하는 개수 >> nPr에서의 r
 
-    const result = [];
-    // 순열을 담을 답 배열
-
-    if (selectNumber === 1) return arr.map((el) => [el]); 
-    // 1개만 선택하는 거라면 그냥 arr의 원소 개수를 담아서 내보내면 된다.
-    // 또한 이 재귀함수의 마지막 상황으로 볼 수 있다.
-
-    arr.forEach((fixed, index, origin) => {
-      // fixed = 처리하는 요소(보통 element로 씀)
-      // index = 처리하는 요소의 인덱스값
-      // origin = forEach를 호출한 배열 = arr
-
-      const rest = [...origin.slice(0, index), ...origin.slice(index+1)] 
-      // 해당 fixed를 제외한 나머지 배열 
-      const permu = permutation(rest, selectNumber - 1); 
-      // 나머지에 대해서 재귀함수를 이용해 순열을 구한다.
-      const attached = permu.map((el) => [fixed, ...el]); 
-      // 돌아온 순열에 fixed 값을 붙인다.
-      result.push(...attached); 
-      // 답을 집어넣을 result 배열에 spread로 push
-    });
-
-    return result;
-}
 ```
 
 <br>
@@ -162,42 +135,5 @@ arr.findIndex(callback(element[, index[, array]])[, thisArg])
 
 ### 해답 코드
 ```js
-function orderOfPresentation (N, K) {
-    // TODO: 여기에 코드를 작성합니다.
-    
-    let arr = [];
-    for(let i = 1; i < N + 1; i++){
-        arr.push(i);
-    };
-
-    const permutation = function (arr, selectNumber) {
-        const result = [];
-        if (selectNumber === 1) return arr.map((el) => [el]); 
-        arr.forEach((fixed, index, origin) => {
-            const rest = [...origin.slice(0, index), ...origin.slice(index+1)] 
-            const permu = permutation(rest, selectNumber - 1); 
-            const attached = permu.map((el) => [fixed, ...el]); 
-            result.push(...attached); 
-        });
-        return result;
-    }
-
-    const getResult = function (a1, a2) {
-        let i = a1.length;
-        if (i != a2.length) return false;
-
-        while (i--) {
-            if (a1[i] !== a2[i]) return false;
-        }
-        return true;
-    };
-    // 배열을 비교하는 함수
-
-    let numberArr = permutation(arr, N);
-    let result = numberArr.findIndex((el) => {
-        getResult(el,K);
-    })
-
-    return result;
-}
+// 해답 적을 코드
 ```
