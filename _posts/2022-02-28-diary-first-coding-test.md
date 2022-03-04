@@ -1,6 +1,7 @@
 ---
 published: true
 title:  "[Diary] 첫 취업 코딩테스트 후기"
+excerpt: ""
 
 categories:
   - Diary
