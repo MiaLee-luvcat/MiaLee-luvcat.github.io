@@ -1,6 +1,6 @@
 ---
 published: true
-title:  "[error.log] jekyll serve - webrick file 오류 "
+title:  "[error.log] jekyll serve - webrick file 오류"
 
 categories:
   - error.log
