@@ -1,10 +1,10 @@
 ---
 published: true
-title:  "[JavaScript] Jason Web Token(jwt)"
+title:  "[인증/보안] Json Web Token(jwt)"
 excerpt: "jwt에 대한 개념 공부"
 
 categories:
-  - Algorithm
+  - Backend
 tags:
   - [Algorithm, JavaScript, jwt]
 
