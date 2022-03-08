@@ -1,7 +1,7 @@
 ---
 published: true
 title:  "[JavaScript] 순열 Permutation"
-excerpt: "원래 글"
+excerpt: ""
 
 categories:
   - Algorithm
