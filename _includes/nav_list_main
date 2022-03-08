@@ -26,8 +26,15 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                {% if category[0] == "인증 / 보안" %}
-                <li><a href="/categories/security" class="">인증 / 보안 ({{category[1].size}})</a></li>
+                {% if category[0] == "빌드 & 배포" %}
+                <li><a href="/categories/builddistribute" class="">빌드 & 배포 ({{category[1].size}})</a></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                {% if category[0] == "인증 & 보안" %}
+                <li><a href="/categories/security" class="">인증 & 보안 ({{category[1].size}})</a></li>
                 {% endif %}
                 {% endfor %}
             </ul>
@@ -52,13 +59,6 @@
                 {% for category in site.categories %}
                 {% if category[0] == "Algorithm" %}
                 <li><a href="/categories/algorithm" class="">Algorithm ({{category[1].size}})</a></li>
-                {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                {% if category[0] == "빌드 & 배포" %}
-                <li><a href="/categories/builddistribute" class="">빌드 & 배포 ({{category[1].size}})</a></li>
                 {% endif %}
                 {% endfor %}
             </ul>
