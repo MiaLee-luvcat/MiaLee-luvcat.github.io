@@ -1,6 +1,6 @@
 ---
 published: true
-title:  "[Greedy] 편의점 알바 - 최소한의 동전 개수 구하기"
+title:  "[JavaScript] Greedy : 편의점 알바 - 최소한의 동전 개수 구하기"
 excerpt: ""
 
 categories:
