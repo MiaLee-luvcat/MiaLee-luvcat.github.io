@@ -6,7 +6,7 @@ excerpt: ""
 categories:
   - Diary
 tags:
-  - [javascript, Employment, CodingTest]
+  - [javascript, Employment, CodingTest, Review]
 
 toc: true
 toc_sticky: true

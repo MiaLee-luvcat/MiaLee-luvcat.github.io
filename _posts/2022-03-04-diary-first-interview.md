@@ -6,7 +6,7 @@ excerpt: ""
 categories:
   - Diary
 tags:
-  - [Employment, CodingTest, Interview]
+  - [Employment, CodingTest, Interview, Review]
 
 toc: true
 toc_sticky: true
