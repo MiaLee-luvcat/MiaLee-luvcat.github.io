@@ -73,7 +73,6 @@ Greedy Algorethm(탐욕 알고리즘) : 최적해를 구하는 데에 사용되�
 ## 해답 코드
 ```js
 function partTimeJob(k) {
-  // TODO: 여기에 코드를 작성하세요.
   // k=거스름돈
   
   // 1억일 경우 500원으로 나눈 게 답
