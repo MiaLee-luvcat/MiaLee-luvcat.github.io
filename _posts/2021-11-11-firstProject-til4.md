@@ -1,6 +1,6 @@
 ---
 published: true
-title:  "[TIL] First Project, Git 다루기"
+title:  "[TIL] First Project, 레포지토리 연습 및 코딩준비"
 excerpt: "코드스테이츠 First Project"
 
 categories:
@@ -23,6 +23,7 @@ last_modified_at: 2022-03-17 20:03:00
 ## 오늘의 일정  
 - 이제 GitHub 레포 정리해야죠!  
 
+**갑자기 깃헙 블로그 작동이 안 돼서 잠시 작성 중인 글 올림**
 
 
 ## 오늘 겪었던 일, 느낀점  
