@@ -88,13 +88,6 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                {% if category[0] == "Interview" %}
-                <li><a href="/categories/interview" class="">Interview ({{category[1].size}})</a></li>
-                {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
                 {% if category[0] == "Github Blog" %}
                 <li><a href="/categories/githubblog" class="">Github Blog ({{category[1].size}})</a></li>
                 {% endif %}
@@ -102,8 +95,22 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
+                {% if category[0] == "Interview" %}
+                <li><a href="/categories/interview" class="">Interview ({{category[1].size}})</a></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                 {% if category[0] == "Retrospect" %}
                 <li><a href="/categories/retrospect" class="">회고 ({{category[1].size}})</a></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                {% if category[0] == "TIL" %}
+                <li><a href="/categories/til" class="">TIL ({{category[1].size}})</a></li>
                 {% endif %}
                 {% endfor %}
             </ul>
