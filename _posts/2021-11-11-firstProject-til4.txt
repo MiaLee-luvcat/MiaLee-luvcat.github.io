@@ -1,0 +1,33 @@
+---
+published: true
+title:  "[TIL] First Project, Git 다루기"
+excerpt: "코드스테이츠 First Project"
+
+categories:
+  - TIL
+tags:
+  - [Project, TIL]
+
+toc: true
+toc_sticky: true
+ 
+date: 2021-11-11 20:30:00
+last_modified_at: 2022-03-17 20:03:00
+---
+<br>
+
+*이 글은 Notion 블로그에 적었던 글을 가져온 것으로, 이 깃헙 블로그에 커밋한 시각과 다를 수밖에 없음을 알려드립니다.*
+
+<br>
+
+## 오늘의 일정  
+- 이제 GitHub 레포 정리해야죠!  
+
+
+
+## 오늘 겪었던 일, 느낀점  
+- dd  
+
+
+<br/>
+<br/>
