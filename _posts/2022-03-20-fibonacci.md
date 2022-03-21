@@ -6,7 +6,7 @@ excerpt: ""
 categories:
   - Algorithm
 tags:
-  - [Couplet, Algorithm, JavaScript, Recursion, fibonacci]
+  - [Couplet, Algorithm, JavaScript, 재귀함수, Recursion, fibonacci]
 
 toc: true
 toc_sticky: true
