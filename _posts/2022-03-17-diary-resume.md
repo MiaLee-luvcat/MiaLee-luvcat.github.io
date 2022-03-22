@@ -6,7 +6,7 @@ excerpt: ""
 categories:
   - Diary
 tags:
-  - [Employment, Resume, Self-Introduction]
+  - [CodeStates, Employment, Resume, Self-Introduction]
 
 toc: true
 toc_sticky: true

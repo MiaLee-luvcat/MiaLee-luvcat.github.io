@@ -6,7 +6,7 @@ excerpt: ""
 categories:
   - Diary
 tags:
-  - [Employment, Resume, Self-Introduction]
+  - [CodeStates, Employment, Resume, Self-Introduction]
 
 toc: true
 toc_sticky: true
@@ -17,7 +17,7 @@ last_modified_at: 2022-03-18 21:12:00
 
 ## 드디어 본격적인 상담  
 
-[어제](https://siri-syl.github.io/diary/diary-resume/)에 이어서,  
+[어제](https://siri-syl.github.io/diary/diary-resume/){:target="_blank"}에 이어서,  
 오늘 드디어 커리어 코치님과 이력서/자소서 피드백을 받게 되었다~! 즉 상담 시작!  
 
 위 링크의 글대로, 원래 SEB 담당 코리어커치님은 한 분이셨지만 이번에 다른 쪽 커리어코치님도 새로 SEB에 배정되셨다.  
