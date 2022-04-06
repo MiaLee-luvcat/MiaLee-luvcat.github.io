@@ -6,7 +6,7 @@ excerpt: ""
 categories:
   - Diary
 tags:
-  - [CodeStates, Employment,Challenge]
+  - [CodeStates, Employment, Challenge]
 
 toc: true
 toc_sticky: true
