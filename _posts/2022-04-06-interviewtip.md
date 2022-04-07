@@ -4,7 +4,7 @@ title:  "[TIL] 개발자 면접 팁 정리 from 커리어코치님"
 excerpt: ""
 
 categories:
-  - Diary
+  - TIL
 tags:
   - [CodeStates, Employment, Interview]
 
