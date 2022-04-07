@@ -24,7 +24,7 @@ last_modified_at: 2022-03-05 15:03:00
 
 ## 다른 날짜, 같은 파일명으로 저장해서 돌리면?
 `bundle exec jekyll serve` 명령어는 현재 마련한 블로그 구조 파일들이 잘 돌아가는지 로컬에서 확인할 때 쓴다.  
-난 기존에 [[JavaScript] 순열 Permutation](https://siri-syl.github.io/algorithm/study-permutation/) 글을 쓴 적이 있는데, 날짜만 다르고 똑같은 파일명을 만들어 보았다.  
+난 기존에 [[JavaScript] 순열 Permutation](https://siri-syl.github.io/algorithm/study-permutation/){:target="_blank"} 글을 쓴 적이 있는데, 날짜만 다르고 똑같은 파일명을 만들어 보았다.  
 
 기존 순열 글 파일명 = 2022-03-01-study-permutation.md  
 새로운 글 파일명 = 2022-03-05-study-permutation.md  

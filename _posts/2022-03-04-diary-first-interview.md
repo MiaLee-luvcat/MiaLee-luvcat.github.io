@@ -19,7 +19,7 @@ last_modified_at: 2022-03-04 15:11:00
 
 코드스테이츠 SEB 부트캠프 수료 후 구직활동을 한 지 n주...  
 예전에 처음으로 서류 통과돼서 코딩테스트를 봤던 곳에서 1차 면접까지 보게 됐다!  
-[코딩테스트 후기 글은 여기로](https://siri-syl.github.io/diary/diary-first-coding-test/) << 링크  
+[코딩테스트 후기 글은 여기로](https://siri-syl.github.io/diary/diary-first-coding-test/){:target="_blank"} << 링크  
 
 그리고 오늘 오전에 구글밋으로 화상면접을 봤는데, 대표님을 포함한 세 분의 면접관과 함께했다.  
 
