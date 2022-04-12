@@ -38,11 +38,12 @@
                 {% endif %}
                 {% endfor %}
             </ul>
-            <span class="nav__sub-title">Native App</span>
+            <span class="nav__sub-title">FrontEnd</span>
             <ul>
                 {% for category in site.categories %}
-                {% if category[0] == "Android" %}
-                <li><a href="/categories/android" class="">Android ({{category[1].size}})</a></li>
+                {% if category[0] == "Programming Language" %}
+                <li><a href="/categories/programminglanguage" class="">Programming Language ({{category[1].size}})</a>
+                </li>
                 {% endif %}
                 {% endfor %}
             </ul>
