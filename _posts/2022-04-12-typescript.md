@@ -1,6 +1,6 @@
 ---
 published: true
-title:  "[타입스크립트] 타입스크립트가 뭘까?"
+title:  "[TypeScript] 타입스크립트가 뭘까?"
 excerpt: ""
 
 categories:
