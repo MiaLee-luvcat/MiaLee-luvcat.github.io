@@ -1,6 +1,6 @@
 ---
 published: true
-title:  "(작성중)[Database] RDBMS와 NoSQL의 차이"
+title:  "[Database] RDBMS와 NoSQL의 차이"
 excerpt: ""
 
 categories:
