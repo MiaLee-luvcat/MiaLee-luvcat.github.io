@@ -115,6 +115,13 @@
                 {% endif %}
                 {% endfor %}
             </ul>
+            <ul>
+                {% for category in site.categories %}
+                {% if category[0] == "Visual Studio Code" %}
+                <li><a href="/categories/visualstudiocode" class="">Visual Studio Code ({{category[1].size}})</a></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
         </li>
     </ul>
 </nav>
