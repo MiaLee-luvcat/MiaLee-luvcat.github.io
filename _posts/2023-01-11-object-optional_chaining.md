@@ -17,8 +17,10 @@ last_modified_at: 2023-01-11 23:50:00
 
 ## Object의 Key나 Value 불러오다가 에러나면...  
 JavaScript를 다루다 보면 Object(객체) 관련한 처리에서 에러를 자주 겪게 된다.  
-실제로 체크한 건 아니지만 나만 JavaScript 자체를 3년 이상 쓰면서 객체 관련해서 이 오류를 제일 겪었던 것 같다.  
+나만 해도 JavaScript 자체를 3년 이상 쓰면서 객체 관련해서 이 오류를 제일 많이 겪었던 것 같다.  
+
 > `Uncaught TypeError: Cannot read properties of undefined`  
+
 바로 타입에러...!  
 
 당연히 올바른 객체가 나올 줄 알고 함수를 다 짜놨더니 잘못돼서 에러가 나는 것이다...  
