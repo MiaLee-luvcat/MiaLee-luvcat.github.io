@@ -71,11 +71,16 @@ func()
 // A: console >> 'undefined'
 // B: console >> 'undefined'
 ```  
-<br>
 
+<br>
 
 ## 기타 - 한마디  
 이 문법을 쓰지 않더라도 충분히 에러처리를 할 수는 있지만, 코드를 한 줄이라도 줄이기 위해 쓰는 것 정도는 괜찮다고 본다.  
+
+<br>
+
+## 참고 영상  
+[코딩애플 유튜브 영상](https://youtu.be/WHUvtiKy_pg){:target="_blank"}  
 
 <br>
 <br>
