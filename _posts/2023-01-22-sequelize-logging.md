@@ -30,7 +30,7 @@ last_modified_at: 2023-01-22 14:09:00
 
 <br>
 
-<center><img width="512" alt="스크린샷 2023-01-20 오후 8 30 18" src="https://user-images.githubusercontent.com/87490361/213901221-e775778a-4eb4-4d7f-ab6e-281d84c44e4d.png"></center>  
+<center><img width="1144" alt="siri 모델 세팅 로그" src="https://user-images.githubusercontent.com/87490361/214002207-900d6015-1ada-4b13-a64e-85a3652382fd.png"></center>  
 <center><b>[siri 모델 세팅 로그]</b></center>  
 
 <br>
