@@ -30,8 +30,8 @@ last_modified_at: 2023-01-22 14:09:00
 
 <br>
 
-<center><img width="1144" alt="siri 모델 세팅 로그" src="https://user-images.githubusercontent.com/87490361/214002207-900d6015-1ada-4b13-a64e-85a3652382fd.png"></center>  
-<center><b>[siri 모델 세팅 로그]</b></center>  
+<center><img width="1144" alt="siri.user 모델 세팅 로그" src="https://user-images.githubusercontent.com/87490361/214002207-900d6015-1ada-4b13-a64e-85a3652382fd.png"></center>  
+<center><b>[siri DB에서 user 모델 세팅 로그]</b></center>  
 
 <br>
 
