@@ -19,6 +19,13 @@
       <span class="nav__sub-title">BackEnd</span>
       <ul>
         {% for category in site.categories %}
+        {% if category[0] == "AWS" %}
+        <li><a href="/categories/aws" class="">Spring ({{category[1].size}})</a></li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+      <ul>
+        {% for category in site.categories %}
         {% if category[0] == "Spring" %}
         <li><a href="/categories/spring" class="">Spring ({{category[1].size}})</a></li>
         {% endif %}
