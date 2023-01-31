@@ -69,7 +69,7 @@
   var $ = window.jQuery || window.Cowboy || ( window.Cowboy = {} ),
     
     // Internal method reference.
-    jq_throttle;
+    jq_throttle
   
   // Method: jQuery.throttle
   // 
@@ -91,15 +91,15 @@
   // 
   // Usage:
   // 
-  // > var throttled = jQuery.throttle( delay, [ no_trailing, ] callback );
+  // > var throttled = jQuery.throttle( delay, [ no_trailing, ] callback )
   // > 
-  // > jQuery('selector').bind( 'someevent', throttled );
-  // > jQuery('selector').unbind( 'someevent', throttled );
+  // > jQuery('selector').bind( 'someevent', throttled )
+  // > jQuery('selector').unbind( 'someevent', throttled )
   // 
   // This also works in jQuery 1.4+:
   // 
-  // > jQuery('selector').bind( 'someevent', jQuery.throttle( delay, [ no_trailing, ] callback ) );
-  // > jQuery('selector').unbind( 'someevent', callback );
+  // > jQuery('selector').bind( 'someevent', jQuery.throttle( delay, [ no_trailing, ] callback ) )
+  // > jQuery('selector').unbind( 'someevent', callback )
   // 
   // Arguments:
   // 
@@ -126,13 +126,13 @@
     var timeout_id,
       
       // Keep track of the last time `callback` was executed.
-      last_exec = 0;
+      last_exec = 0
     
     // `no_trailing` defaults to falsy.
     if ( typeof no_trailing !== 'boolean' ) {
-      debounce_mode = callback;
-      callback = no_trailing;
-      no_trailing = undefined;
+      debounce_mode = callback
+      callback = no_trailing
+      no_trailing = undefined
     }
     
     // The `wrapper` function encapsulates all of the throttling / debouncing
@@ -141,33 +141,33 @@
     function wrapper() {
       var that = this,
         elapsed = +new Date() - last_exec,
-        args = arguments;
+        args = arguments
       
       // Execute `callback` and update the `last_exec` timestamp.
       function exec() {
-        last_exec = +new Date();
-        callback.apply( that, args );
-      };
+        last_exec = +new Date()
+        callback.apply( that, args )
+      }
       
       // If `debounce_mode` is true (at_begin) this is used to clear the flag
       // to allow future `callback` executions.
       function clear() {
-        timeout_id = undefined;
-      };
+        timeout_id = undefined
+      }
       
       if ( debounce_mode && !timeout_id ) {
         // Since `wrapper` is being called for the first time and
         // `debounce_mode` is true (at_begin), execute `callback`.
-        exec();
+        exec()
       }
       
       // Clear any existing timeout.
-      timeout_id && clearTimeout( timeout_id );
+      timeout_id && clearTimeout( timeout_id )
       
       if ( debounce_mode === undefined && elapsed > delay ) {
         // In throttle mode, if `delay` time has been exceeded, execute
         // `callback`.
-        exec();
+        exec()
         
       } else if ( no_trailing !== true ) {
         // In trailing throttle mode, since `delay` time has not been
@@ -179,20 +179,20 @@
         // 
         // If `debounce_mode` is false (at end), schedule `callback` to
         // execute after `delay` ms.
-        timeout_id = setTimeout( debounce_mode ? clear : exec, debounce_mode === undefined ? delay - elapsed : delay );
+        timeout_id = setTimeout( debounce_mode ? clear : exec, debounce_mode === undefined ? delay - elapsed : delay )
       }
-    };
+    }
     
     // Set the guid of `wrapper` function to the same of original callback, so
     // it can be removed in jQuery 1.4+ .unbind or .die by using the original
     // callback as a reference.
     if ( $.guid ) {
-      wrapper.guid = callback.guid = callback.guid || $.guid++;
+      wrapper.guid = callback.guid = callback.guid || $.guid++
     }
     
     // Return the wrapper function.
-    return wrapper;
-  };
+    return wrapper
+  }
   
   // Method: jQuery.debounce
   // 
@@ -215,15 +215,15 @@
   // 
   // Usage:
   // 
-  // > var debounced = jQuery.debounce( delay, [ at_begin, ] callback );
+  // > var debounced = jQuery.debounce( delay, [ at_begin, ] callback )
   // > 
-  // > jQuery('selector').bind( 'someevent', debounced );
-  // > jQuery('selector').unbind( 'someevent', debounced );
+  // > jQuery('selector').bind( 'someevent', debounced )
+  // > jQuery('selector').unbind( 'someevent', debounced )
   // 
   // This also works in jQuery 1.4+:
   // 
-  // > jQuery('selector').bind( 'someevent', jQuery.debounce( delay, [ at_begin, ] callback ) );
-  // > jQuery('selector').unbind( 'someevent', callback );
+  // > jQuery('selector').bind( 'someevent', jQuery.debounce( delay, [ at_begin, ] callback ) )
+  // > jQuery('selector').unbind( 'someevent', callback )
   // 
   // Arguments:
   // 
@@ -246,7 +246,7 @@
   $.debounce = function( delay, at_begin, callback ) {
     return callback === undefined
       ? jq_throttle( delay, at_begin, false )
-      : jq_throttle( delay, callback, at_begin !== false );
-  };
+      : jq_throttle( delay, callback, at_begin !== false )
+  }
   
-})(this);
+})(this)

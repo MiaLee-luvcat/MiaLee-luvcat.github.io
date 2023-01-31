@@ -4,54 +4,54 @@
 
 $(document).ready(function() {
   // FitVids init
-  $("#main").fitVids();
+  $("#main").fitVids()
 
   // Sticky sidebar
   var stickySideBar = function() {
     var show =
       $(".author__urls-wrapper button").length === 0
         ? $(window).width() > 1024 // width should match $large Sass variable
-        : !$(".author__urls-wrapper button").is(":visible");
+        : !$(".author__urls-wrapper button").is(":visible")
     if (show) {
       // fix
-      $(".sidebar").addClass("sticky");
+      $(".sidebar").addClass("sticky")
     } else {
       // unfix
-      $(".sidebar").removeClass("sticky");
+      $(".sidebar").removeClass("sticky")
     }
-  };
+  }
 
-  stickySideBar();
+  stickySideBar()
 
   $(window).resize(function() {
-    stickySideBar();
-  });
+    stickySideBar()
+  })
 
   // Follow menu drop down
   $(".author__urls-wrapper button").on("click", function() {
-    $(".author__urls").toggleClass("is--visible");
-    $(".author__urls-wrapper button").toggleClass("open");
-  });
+    $(".author__urls").toggleClass("is--visible")
+    $(".author__urls-wrapper button").toggleClass("open")
+  })
 
   // Close search screen with Esc key
   $(document).keyup(function(e) {
     if (e.keyCode === 27) {
       if ($(".initial-content").hasClass("is--hidden")) {
-        $(".search-content").toggleClass("is--visible");
-        $(".initial-content").toggleClass("is--hidden");
+        $(".search-content").toggleClass("is--visible")
+        $(".initial-content").toggleClass("is--hidden")
       }
     }
-  });
+  })
 
   // Search toggle
   $(".search__toggle").on("click", function() {
-    $(".search-content").toggleClass("is--visible");
-    $(".initial-content").toggleClass("is--hidden");
+    $(".search-content").toggleClass("is--visible")
+    $(".initial-content").toggleClass("is--hidden")
     // set focus on input
     setTimeout(function() {
-      $(".search-content input").focus();
-    }, 400);
-  });
+      $(".search-content input").focus()
+    }, 400)
+  })
 
   // Smooth scrolling
   var scroll = new SmoothScroll('a[href*="#"]', {
@@ -59,7 +59,7 @@ $(document).ready(function() {
     speed: 400,
     speedAsDuration: true,
     durationMax: 500
-  });
+  })
 
   // Gumshoe scroll spy init
   if($("nav.toc").length > 0) {
@@ -78,21 +78,21 @@ $(document).ready(function() {
 
       // Event support
       events: true // if true, emit custom events
-    });
+    })
   }
 
   // add lightbox class to all image links
   $(
     "a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif'],a[href$='.webp']"
-  ).has("> img").addClass("image-popup");
+  ).has("> img").addClass("image-popup")
 
   // Magnific-Popup options
   $(".image-popup").magnificPopup({
     // disableOn: function() {
     //   if( $(window).width() < 500 ) {
-    //     return false;
+    //     return false
     //   }
-    //   return true;
+    //   return true
     // },
     type: "image",
     tLoading: "Loading image #%curr%...",
@@ -114,23 +114,23 @@ $(document).ready(function() {
         this.st.image.markup = this.st.image.markup.replace(
           "mfp-figure",
           "mfp-figure mfp-with-anim"
-        );
+        )
       }
     },
     closeOnContentClick: true,
     midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
-  });
+  })
 
   // Add anchors for headings
   $('.page__content').find('h1, h2, h3, h4, h5, h6').each(function() {
-    var id = $(this).attr('id');
+    var id = $(this).attr('id')
     if (id) {
-      var anchor = document.createElement("a");
-      anchor.className = 'header-link';
-      anchor.href = '#' + id;
-      anchor.innerHTML = '<span class=\"sr-only\">Permalink</span><i class=\"fas fa-link\"></i>';
-      anchor.title = "Permalink";
-      $(this).append(anchor);
+      var anchor = document.createElement("a")
+      anchor.className = 'header-link'
+      anchor.href = '#' + id
+      anchor.innerHTML = '<span class=\"sr-only\">Permalink</span><i class=\"fas fa-link\"></i>'
+      anchor.title = "Permalink"
+      $(this).append(anchor)
     }
-  });
-});
+  })
+})

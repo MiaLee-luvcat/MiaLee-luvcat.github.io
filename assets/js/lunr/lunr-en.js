@@ -20,12 +20,12 @@ var idx = lunr(function () {
       id: item
     })
   }
-});
+})
 
 $(document).ready(function() {
   $('input#search').on('keyup', function () {
-    var resultdiv = $('#results');
-    var query = $(this).val().toLowerCase();
+    var resultdiv = $('#results')
+    var query = $(this).val().toLowerCase()
     var result =
       idx.query(function (q) {
         query.split(lunr.tokenizer.separator).forEach(function (term) {
@@ -37,11 +37,11 @@ $(document).ready(function() {
             q.term(term, {  usePipeline: false, editDistance: 1, boost: 1 })
           }
         })
-      });
-    resultdiv.empty();
-    resultdiv.prepend('<p class="results__found">'+result.length+' {{ site.data.ui-text[site.locale].results_found | default: "Result(s) found" }}</p>');
+      })
+    resultdiv.empty()
+    resultdiv.prepend('<p class="results__found">'+result.length+' {{ site.data.ui-text[site.locale].results_found | default: "Result(s) found" }}</p>')
     for (var item in result) {
-      var ref = result[item].ref;
+      var ref = result[item].ref
       if(store[ref].teaser){
         var searchitem =
           '<div class="list__item">'+
@@ -54,7 +54,7 @@ $(document).ready(function() {
               '</div>'+
               '<p class="archive__item-excerpt" itemprop="description">'+store[ref].excerpt.split(" ").splice(0,20).join(" ")+'...</p>'+
             '</article>'+
-          '</div>';
+          '</div>'
       }
       else{
     	  var searchitem =
@@ -65,9 +65,9 @@ $(document).ready(function() {
               '</h2>'+
               '<p class="archive__item-excerpt" itemprop="description">'+store[ref].excerpt.split(" ").splice(0,20).join(" ")+'...</p>'+
             '</article>'+
-          '</div>';
+          '</div>'
       }
-      resultdiv.append(searchitem);
+      resultdiv.append(searchitem)
     }
-  });
-});
+  })
+})
