@@ -93,7 +93,7 @@ NginX를 설치하는 순간부터 Express 서버를 80포트로 돌리려다 �
 <br>
 
 ## 참고 문서  
-[블로그 링크](https://blog.nachal.com/1682)
+[블로그 링크](https://blog.nachal.com/1682){:target="_blank"}
 
 
 <br>
