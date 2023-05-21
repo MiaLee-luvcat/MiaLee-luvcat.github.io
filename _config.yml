@@ -20,14 +20,14 @@ after_footer_scripts:
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "시리의 다시 보자 개발노트"
+title                    : "미아의 다시 보자 개발노트"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "SY.Lee - siri"
+name                     : "Mia.Lee"
 description              : "노션 쓰다가 옮겨왔어요! 제대로 적어보겠습니다🔥"
 url                      : "https://siri-syl.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "siri-syl/siri-syl.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "MiaLee-luvcat/MiaLee-luvcat.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -108,7 +108,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "SY.Lee - siri"
+  name             : "Mia.Lee"
   avatar           : "/assets/images/profile.png"
   bio              : "노션 쓰다가 옮겨온 개발블로그! 제대로 적어보겠습니다🔥"
   location         : "South Korea"
@@ -116,7 +116,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:sylee010101@gmail.com"
+      url: "mailto:mia2catlove@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -128,7 +128,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/siri-syl"
+      url: "https://github.com/MiaLee-luvcat"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -147,7 +147,7 @@ footer:
       url: "mailto:sylee010101@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/siri-syl"
+      url: "https://github.com/MiaLee-luvcat"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
