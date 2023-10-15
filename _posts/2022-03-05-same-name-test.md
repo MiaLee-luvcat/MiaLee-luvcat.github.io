@@ -24,7 +24,7 @@ last_modified_at: 2022-03-05 15:03:00
 
 ## 다른 날짜, 같은 파일명으로 저장해서 돌리면?
 `bundle exec jekyll serve` 명령어는 현재 마련한 블로그 구조 파일들이 잘 돌아가는지 로컬에서 확인할 때 쓴다.  
-난 기존에 [[JavaScript] 순열 Permutation](https://siri-syl.github.io/algorithm/study-permutation/){:target="_blank"} 글을 쓴 적이 있는데, 날짜만 다르고 똑같은 파일명을 만들어 보았다.  
+난 기존에 [[JavaScript] 순열 Permutation](https://mialee-luvcat.github.io/algorithm/study-permutation/){:target="_blank"} 글을 쓴 적이 있는데, 날짜만 다르고 똑같은 파일명을 만들어 보았다.  
 
 기존 순열 글 파일명 = 2022-03-01-study-permutation.md  
 새로운 글 파일명 = 2022-03-05-study-permutation.md  
@@ -48,21 +48,21 @@ last_modified_at: 2022-03-05 15:03:00
 // siri-syl은 내 깃헙 계정이다
 // l_siri는 내 맥북 컴퓨터 이름이다.
 
- ~/siri-syl.github.io   main  bundle exec jekyll serve             
-Configuration file: /Users/l_siri/siri-syl.github.io/_config.yml
-            Source: /Users/l_siri/siri-syl.github.io
-       Destination: /Users/l_siri/siri-syl.github.io/_site
+ ~/mialee-luvcat.github.io   main  bundle exec jekyll serve             
+Configuration file: /Users/l_siri/mialee-luvcat.github.io/_config.yml
+            Source: /Users/l_siri/mialee-luvcat.github.io
+       Destination: /Users/l_siri/mialee-luvcat.github.io/_site
  Incremental build: disabled. Enable with --incremental
       Generating... 
        Jekyll Feed: Generating feed for posts
           Conflict: The following destination is shared by multiple files.
                     The written file may end up with unexpected contents.
-                    /Users/l_siri/siri-syl.github.io/_site/algorithm/study-permutation/index.html
-                     - /Users/l_siri/siri-syl.github.io/_posts/2022-03-01-study-permutation.md
-                     - /Users/l_siri/siri-syl.github.io/_posts/2022-03-05-study-permutation.md
+                    /Users/l_siri/mialee-luvcat.github.io/_site/algorithm/study-permutation/index.html
+                     - /Users/l_siri/mialee-luvcat.github.io/_posts/2022-03-01-study-permutation.md
+                     - /Users/l_siri/mialee-luvcat.github.io/_posts/2022-03-05-study-permutation.md
                     
                     done in 3.592 seconds.
- Auto-regeneration: enabled for '/Users/l_siri/siri-syl.github.io'
+ Auto-regeneration: enabled for '/Users/l_siri/mialee-luvcat.github.io'
     Server address: http://127.0.0.1:4000
   Server running... press ctrl-c to stop.
 ```  

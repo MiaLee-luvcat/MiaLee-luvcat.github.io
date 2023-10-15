@@ -18,7 +18,7 @@ last_modified_at: 2022-03-25 17:04:00
 ## 이력서 피드백 재도전  
 * 이제 피드백이 없다...!  
 
-가장 최근 이력서 피드백에 이어 [그 전](https://siri-syl.github.io/diary/diary-resume2/){:target="_blank"}에 피드백 주신 커리어 코치님에게 이력서 상담을 다시 신청했었다.  
+가장 최근 이력서 피드백에 이어 [그 전](https://mialee-luvcat.github.io/diary/diary-resume2/){:target="_blank"}에 피드백 주신 커리어 코치님에게 이력서 상담을 다시 신청했었다.  
 
 요청 내용은 대략 '이전에 받은 피드백 적용 및 더코드쉽에서 지원하며 피드백 받았던 것을 토대로 수정한 걸 다시 피드백 요청드려요'였다.  
 

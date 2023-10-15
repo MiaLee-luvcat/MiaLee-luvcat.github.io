@@ -20,8 +20,8 @@ last_modified_at: 2022-03-09 23:22:00
 코드스테이츠 수료 후 구직 중인 요즘...  
 때는 며칠 전, 처음으로 서류 합격을 하고 코딩테스트 통과 후 1차 직무 면접을 봤던 회사가 있었다.  
 
-[코딩테스트 후기글](https://siri-syl.github.io/diary/diary-first-coding-test/) << 링크  
-[첫 면접 후기 글](https://siri-syl.github.io/diary/diary-first-interview/) << 링크  
+[코딩테스트 후기글](https://mialee-luvcat.github.io/diary/diary-first-coding-test/) << 링크  
+[첫 면접 후기 글](https://mialee-luvcat.github.io/diary/diary-first-interview/) << 링크  
 
 나는 이 면접을 보기 전, 코드스테이츠의 SEB 담당 커리어 코치님에게 상담 요청을 했었다.  
 원래는 이력서 상담을 요청하고 연락을 주고받게 되는데, 나는 당시 코치님의 엄청난 인기로 인해 한 달은 기다려야 예약을 잡을 수 있던 일정을 보고 이력서 상담 요청은 안 하고 혼자서 구직활동을 하고 있던 차였다...  

@@ -61,7 +61,7 @@ console.log(output); // 4
 
 # 풀이  
 힌트에 나온 `동전 교환 알고리즘 (Coin Change)`은 이미 내가 최근에 풀어봤던 문제의 해결과정 및 답을 말한다.  
-[풀었던 글 링크](https://siri-syl.github.io/algorithm/Algorithm-Greedy/)  
+[풀었던 글 링크](https://mialee-luvcat.github.io/algorithm/Algorithm-Greedy/)  
 여기서 간단히 말하자면, 원하는 금액에 맞게 일정 종류의 동전들을 이용해서 주되, 그 동전의 개수를 최소화하는 방법을 뜻한다.  
 
 ## 로직

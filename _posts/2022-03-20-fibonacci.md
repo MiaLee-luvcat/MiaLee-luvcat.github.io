@@ -48,7 +48,7 @@ console.log(output); // --> 34
 ## 로직  
 
 이 문제는 주의사항에 적힌 대로 `for`, `while`을 쓸 수 없으며 재귀함수를 이용하여 풀게 된다.  
-재귀함수 내용은 [이 글](https://siri-syl.github.io/til/til-recursion/){:target="_blank"}에서 확인할 수 있다!  
+재귀함수 내용은 [이 글](https://mialee-luvcat.github.io/til/til-recursion/){:target="_blank"}에서 확인할 수 있다!  
 
 우선 문제를 최대한 쪼개고 쪼개서 가장 간단한 계산식에 이르게 한다.  
 여기서는 피보나치 수열이 0, 1, 1, 2, ... 이기에 세 번째 수가 오려면 첫 번째와 두 번째 수를 더하고,  

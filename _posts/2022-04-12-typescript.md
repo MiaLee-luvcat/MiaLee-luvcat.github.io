@@ -32,7 +32,7 @@ last_modified_at: 2022-03-08 17:06:30
 자바스크립트는 클라이언트측 스크립팅 언어(CSR을 생각하면 된다)라면, 타입스크립트는 객체지향 컴파일 언어다.  
 
 자바스크립트 먼저 설명하자면,  
-[CSR과 SSR을 설명했던 글](https://siri-syl.github.io/%EB%B9%8C%EB%93%9C%20&%20%EB%B0%B0%ED%8F%AC/CsrSsr/){:target="_blank"}에서도 잠깐 나왔지만 JS 자체는 CSR의 대표적인 언어로서, 서버와의 상호작용이 덜한 언어이다.  
+[CSR과 SSR을 설명했던 글](https://mialee-luvcat.github.io/%EB%B9%8C%EB%93%9C%20&%20%EB%B0%B0%ED%8F%AC/CsrSsr/){:target="_blank"}에서도 잠깐 나왔지만 JS 자체는 CSR의 대표적인 언어로서, 서버와의 상호작용이 덜한 언어이다.  
 
 그런데 타입스크립트의 경우 class와 interface의 특징을 지원함으로써 완전한 객체지향 프로그래밍 환경을 제공한다.  
 객체지향이라고 하면 객체들의 모임을 생각하면 되는데, C++, Python, Java 등의 언어들이 이와 같다.  

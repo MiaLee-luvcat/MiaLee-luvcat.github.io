@@ -47,8 +47,8 @@ last_modified_at: 2022-03-23 20:43:30
 # 풀이  
 ## 로직  
 탐욕법 알고리즘에 대해서는 이전에도 푼 적이 몇 번 있다.  
-[최소한의 동전 개수 구하기](https://siri-syl.github.io/algorithm/Algorithm-Greedy/){:target="_blank"}  
-[짐 나르기](https://siri-syl.github.io/algorithm/Algorithm-Greedy2/){:target="_blank"}  
+[최소한의 동전 개수 구하기](https://mialee-luvcat.github.io/algorithm/Algorithm-Greedy/){:target="_blank"}  
+[짐 나르기](https://mialee-luvcat.github.io/algorithm/Algorithm-Greedy2/){:target="_blank"}  
 
 가장 적절한 방법을 찾아서 진행하는 탐욕법.  
 나는 이번 문제에서 `lost`와 `reserve`의 학생들 배열에 주목했다. 왜냐면 한 학생이 동시에 들어갈 수 있기 때문이다.  
